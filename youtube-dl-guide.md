@@ -1,4 +1,4 @@
-# Download youtube video and playlists via command line using youtube-dl library
+# Download youtube video and playlists via command line using youtube-dl
 
 ## Steps 
 
