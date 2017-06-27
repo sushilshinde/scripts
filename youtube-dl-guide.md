@@ -1,10 +1,18 @@
-##Download youtube videos and playlists via commmand line
+# Download youtube videos and playlists via commmand line using youtube-dl library
+## Steps 
+
+0. You might have to download python for linux and mac  
 1. Download youtube-dl from https://rg3.github.io/youtube-dl/download.html
 2. Install on path so you can run from anywhere as a command
 3. Open command prompt and navoigate to a video folder where you want to download videos  
 
-###Single video 
+### For Single/Playlist 
 
-youtube-dl -cit 
+> youtube-dl -cit < url>
+
+Example : 
+
+> youtube-dl -cit https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
+
 
 
