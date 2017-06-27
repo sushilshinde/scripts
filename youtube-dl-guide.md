@@ -17,3 +17,34 @@
 
 
 *Try youtube-dl --help command for more options. You can audio extract, change download resolution and more...*
+
+
+### For Advanced Users (Linux)
+
+1. Create a file with file with the file name "list" of videos with every url on new line
+
+https://www.youtube.com/watch?v=nG7OhBnfefE
+https://www.youtube.com/watch?v=9FPkN6ETqes
+
+2. Create batch script named "youtube-dl-batch" anywhere
+
+```
+#!/bin/bash
+
+input="$1"
+
+while IFS= read -r var
+do
+	echo "Downloading:  $var"
+
+  sudo youtube-dl -cit "$var"
+
+done < "$input"	
+```
+3. Make it executable
+
+> chmod +x youtube-dl-batch  && sudo cp youtube-dl-batch /usr/bin
+
+4. Run command from anyfolder and provide file path as first parameter
+
+> youtube-dl-batch list 
