@@ -23,8 +23,10 @@
 
 1. Create a file with file with the file name "list" of videos with every url on new line
 
+```
 https://www.youtube.com/watch?v=nG7OhBnfefE
 https://www.youtube.com/watch?v=9FPkN6ETqes
+```
 
 2. Create batch script named "youtube-dl-batch" anywhere
 
