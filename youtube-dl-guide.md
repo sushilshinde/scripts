@@ -6,7 +6,7 @@
 2. Install on path so you can run from anywhere as a command
 3. Open command prompt and navoigate to a video folder where you want to download videos  
 
-### For Single/Playlist 
+### For Single Video / Complete Playlist 
 
 > youtube-dl -cit < url>
 
@@ -15,4 +15,4 @@ Example :
 > youtube-dl -cit https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
 
 
-
+*Try youtube-dl --help command for more options. You can audio extract, change download resolution*
