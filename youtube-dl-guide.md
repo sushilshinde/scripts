@@ -23,8 +23,14 @@
 ## Batch Download! Download multiple videos and plalists at go
 
 ### For Windows User 
-1. Download youtube-dl-batch.bat file 
-2. Add your system [PATH](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path)
+1. Download [youtube-dl-batch.bat](https://raw.githubusercontent.com/sushilshinde/scripts/master/youtube-dl-batch.bat) file and copy to a folder which you will add to system PATH
+2. Add #1 folder to the system [PATH](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path)
+3. Create a file with below format name(each url on new line), let's call it list.txt
+
+```
+https://www.youtube.com/watch?v=nG7OhBnfefE
+https://www.youtube.com/watch?v=9FPkN6ETqes
+```
 
 ### For Linux User 
 
@@ -51,9 +57,10 @@ do
 done < "$input"	
 ```
 3. Make it executable
-
-> chmod +x youtube-dl-batch  && sudo cp youtube-dl-batch /usr/bin
-
+```
+ chmod +x youtube-dl-batch  && sudo cp youtube-dl-batch /usr/bin
+```
 4. Run command from any folder and provide file path as first parameter
-
-> youtube-dl-batch list 
+```
+youtube-dl-batch list 
+```
