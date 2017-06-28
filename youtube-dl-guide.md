@@ -18,7 +18,7 @@
 
 *Try youtube-dl --help command for more options. You can audio extract, change download resolution and more...*
 *Keep youtube-dl updated with this command (it's important)*
->youtube-dl -U
+>youtube-dl  -U
 
 
 ## I have written small wrapper to batch download multiple videos and plalists at one go!
