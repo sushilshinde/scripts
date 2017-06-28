@@ -22,7 +22,7 @@
 > youtube-dl  -U
 ```
 
-# I have a small wrapper to batch download multiple videos and plalists at one go!
+# I have a written a wrapper for batch download of multiple videos and plalists at one go!
 
 ### For Windows User 
 1. Download [youtube-dl-batch.bat](https://raw.githubusercontent.com/sushilshinde/scripts/master/youtube-dl-batch.bat) file and copy to a folder which you will add to system PATH
