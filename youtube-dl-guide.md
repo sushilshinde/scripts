@@ -36,36 +36,21 @@ https://www.youtube.com/watch?v=9FPkN6ETqes
 > youtube-dl-batch text.txt
 ```
 
-
 ### For Linux User 
 
-1. Create a file with file with the file named "list" of videos with every url on new line
+1. Download [youtube-dl-batch](https://raw.githubusercontent.com/sushilshinde/scripts/master/youtube-dl-batch)
+2. Add #1 folder to the system [PATH](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path)
+3. Create a file with below format(each url on new line) in the folder where you want to download all the videos, let's call this file list
 
 ```
 https://www.youtube.com/watch?v=nG7OhBnfefE
 https://www.youtube.com/watch?v=9FPkN6ETqes
 ```
-
-2. Create batch script named "youtube-dl-batch" anywhere with this code
-
-```
-#!/bin/bash
-
-input="$1"
-
-while IFS= read -r var
-do
-	echo "Downloading:  $var"
-
-  sudo youtube-dl -cit "$var"
-
-done < "$input"	
-```
-3. Make it executable
+4. Make it executable
 ```
  chmod +x youtube-dl-batch  && sudo cp youtube-dl-batch /usr/bin
 ```
-4. Run command from any folder and provide file path as first parameter
+5. Run command from any folder and provide file path as first parameter
 ```
-youtube-dl-batch list 
+> youtube-dl-batch list
 ```
