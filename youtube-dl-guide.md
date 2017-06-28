@@ -20,7 +20,13 @@
 *Keep youtube-dl updated with this command (it's important)*
 >youtube-dl -U
 
-### For Advanced Users (Linux)
+## Batch Download! Download multiple videos and plalists at go
+
+### For Windows User 
+1. Download youtube-dl-batch.bat file 
+2. Add your system [PATH](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path)
+
+### For Linux User 
 
 1. Create a file with file with the file named "list" of videos with every url on new line
 
