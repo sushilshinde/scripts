@@ -24,7 +24,7 @@
 
 # I have a written a wrapper for batch download of multiple videos and plalists at one go!
 
-## For Windows User 
+## For Windows Users 
 1. Download [youtube-dl-batch.bat](https://raw.githubusercontent.com/sushilshinde/scripts/master/youtube-dl-batch.bat) file and copy to a folder which you will add to system PATH
 2. Add #1 folder to the system [PATH](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path)
 3. Create a file with below format(each url on new line) in the folder where you want to download all the videos, let's call this file list.txt
@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=9FPkN6ETqes
 > youtube-dl-batch text.txt
 ```
 
-## For Linux User - 
+## For Linux Users 
 
 1. Run this script
 
