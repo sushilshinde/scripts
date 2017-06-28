@@ -1,6 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
-for /f "tokens=*" %%a in ('type list.txt') do (
+set name=%1
+for /f "tokens=*" %%a in ('type %name%') do (
 set line=%%a
 youtube-dl !line!
 )
