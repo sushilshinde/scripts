@@ -11,3 +11,10 @@ C:\Windows\Microsoft.NET\Framework64\v3.5\csc MouseSwap.cs
 *compilation will generate MouseSwap.exe*
 
 3. Execute MouseSwap.exe for effect
+
+## OR (if you trust my exe :) )
+
+1. Download [MouseSwap.exe](https://raw.githubusercontent.com/sushilshinde/scripts/master/windows/mouseswap/MouseSwap.cs) 
+
+2. Execute MouseSwap.exe for effect
+
