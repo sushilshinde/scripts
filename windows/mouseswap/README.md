@@ -1,4 +1,4 @@
-# Utility for swapping mouse button for left/right users
+# Utility for swapping mouse button for left/right handed users
 
 ## Steps 
 
