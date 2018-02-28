@@ -1,0 +1,18 @@
+@echo off
+setlocal enabledelayedexpansion
+set msg=%1
+
+echo "Current Branch : "
+git branch
+echo "Status : "
+git status
+
+:choice
+set /P c=All is well? (y/n)
+if /I "%c%" EQU "y" goto :movespot
+if /I "%c%" EQU "n" goto :exitspot
+goto :choice
+:movespot
+git add . && git commit -m !msg! && git push
+echo !name!
+:exitspot
