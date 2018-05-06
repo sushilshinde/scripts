@@ -6,21 +6,19 @@ https://www.linux.com/learn/how-use-incron-monitor-important-files-and-folders
 
 Steps 
 
-1. sudo apt-get install incron
+### Install
+sudo apt-get install incron
 
-2. sudo nano /etc/incron.allow 
+### Add users
+sudo nano /etc/incron.allow 
+ 
+### Add rules
+incrontab -e
+  
+### Check syslogs
+tail -f /var/log/syslog
 
-  Add user to the file on root systems add 
-  root
-  
-  or on user root system add
-  username
-  
-3. Add rules
-  incrontab -e
-  
-4. Check syslogs
-  tail -f /var/log/syslog
+### Add new file to these folders and Check syslogs again
   
   
 
