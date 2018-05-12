@@ -16,6 +16,7 @@ sudo systemctl restart network
 
 ### Search in a file
 sudo grep -r "grub" /var/log/boot.log | less
+
 sudo sed -n '/Mounted/p' /var/log/boot.log | less
 
 grep -r "ERROR" ap-challenge-2018-05-10.log | tail -n 50
