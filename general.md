@@ -12,5 +12,7 @@ tar -xvf xyz.tar.gz
 
 git add -A && git commit -m "docker" && git push -u origin master
 
+ sudo systemctl restart network
+
 
 
