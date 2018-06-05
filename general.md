@@ -1,3 +1,7 @@
+
+
+rsync -rPz /my/local/dir/ workstation:/my/remote/dir
+ 
 sudo nano /etc/ssh/ssh_config
 
 sudo openvpn --config client.ovpn 
