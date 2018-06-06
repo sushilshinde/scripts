@@ -1,4 +1,9 @@
 
+### youtube-dl with numbering files
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" <playlist_link>
+
+
+
 
 rsync -rPz /my/local/dir/ workstation:/my/remote/dir
  
