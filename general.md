@@ -66,3 +66,19 @@ alias ze="vim ~/.zshrc"
 alias al="cat $ZSH/custom/aliases.zsh"
 alias ae="vim $ZSH/custom/aliases.zsh"
 alias bi="brew install"
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <meta charset="utf-8">
+    <title>Photo message</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <body>
+        <h1>Photo message</h1>
+    </body>
+</html>
