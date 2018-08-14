@@ -2,24 +2,11 @@
 ### youtube-dl with numbering files
 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" <playlist_link>
 
-
-
-
 rsync -rPz /my/local/dir/ workstation:/my/remote/dir
- 
-sudo nano /etc/ssh/ssh_config
-
-sudo openvpn --config client.ovpn 
-
-ssh tcaws_dev
-
-/home/sushilshinde/.ssh/
 
 curl -L -O xyzfile
 
 tar -xvf xyz.tar.gz
-
-git add -A && git commit -m "docker" && git push -u origin master
 
 sudo systemctl restart network
 
@@ -30,55 +17,14 @@ sudo sed -n '/Mounted/p' /var/log/boot.log | less
 
 grep -r "ERROR" ap-challenge-2018-05-10.log | tail -n 50
 
-
-
-
-alias lsa='ls -lah'
-alias l='ls -lah'
-alias ll='ls -lh'
-alias la='ls -lAh'
-alias dir='ls'
-
-alias pt="~/projects/tc"
-alias pl="~/projects/local"
-alias c="clear"
-
-alias ..="cd .."
-alias cd..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-
-alias g="git"
-alias gi='git init'
-alias gp='git push'
-alias gpl='git pull'
-alias ga='git add .'
-alias gc='git commit -m'
-alias ooanward='git commit -am'
-alias ge='git checkout .'
-
-alias v="vim"
-
-alias a="atom ."
-alias reload="source ~/.zshrc"
-alias ze="vim ~/.zshrc"
-alias al="cat $ZSH/custom/aliases.zsh"
-alias ae="vim $ZSH/custom/aliases.zsh"
-alias bi="brew install"
+## Network practice
+Packet tracer, GNS3 with VM
+NAT, Bridge, Host Only
+NAS, SAN, FreeNAS, OPenfiler, Starwind
+IDS, IPS,
+OpenSwitch, Vritual Router
 
 
 
 
 
-<!DOCTYPE html>
-<html>
-    <head></head>
-    <meta charset="utf-8">
-    <title>Photo message</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="mobile-web-app-capable" content="yes">
-    <body>
-        <h1>Photo message</h1>
-    </body>
-</html>
