@@ -1,0 +1,68 @@
+
+alias ed="micro"
+alias lsa='ls -lah' 
+alias l='ls -lah'
+alias ll='ls -lh'
+alias la='ls -lAh'
+alias dir='ls'
+alias opn="open ."
+alias D="cd ~/Downloads"
+alias sshe="sudo micro /etc/ssh/ssh_config"
+
+alias pt="~/project/tc"
+alias pl="~/project/local"
+alias vids="~/Movies/Vids"
+alias c="clear"
+alias cls="clear"
+alias clr="clear"
+
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+alias g="git"
+alias gs="git status"
+alias gl="git log --stat"
+alias gi='git init'
+alias gp='git push'
+alias gpl='git pull'
+alias ga='git add .'
+alias gc='git commit -m'
+alias grv="git remote -v"
+alias ooanward='git commit -am'
+alias ge='git checkout .'
+alias gac='git add . && git commit -m '
+alias gstaged="git diff @ @{upstream}"
+alias gclear="git checkout ."
+alias gcheck="git checkout"
+# Undo a `git push`
+alias undopush="git push -f origin HEAD^:master"
+alias undocommit="git rebase -i HEAD~1"
+
+
+alias v="vim"
+alias a="atom ."
+alias reload="source ~/.zshrc"
+alias ze="ed ~/.zshrc"
+alias al="cat $ZSH/custom/aliases.zsh"
+alias ae="ed $ZSH/custom/aliases.zsh"
+alias bi="brew install"
+alias bu="brew update"
+
+alias e="exit"
+alias dl="aria2c"
+alias yd="youtube-dl -cit"
+alias live="live-server ."
+
+alias cf="cp -R"
+alias rf="rm -rf"
+alias sleeper="python ~/project/local/config/sleeper.py"
+alias slp="pmset sleepnow"
+
+alias npmi="npm i"
+
+alias dla="bash ~/project/local/config/youtube-dl-batch.txt"
+
+alias se="source ~/setupdocs/set-env.sh"
