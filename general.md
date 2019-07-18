@@ -25,6 +25,10 @@ IDS, IPS,
 OpenSwitch, Vritual Router
 
 
+Github kungfu 
 
+## Replace brach with another branch
+
+https://stackoverflow.com/questions/30105210/git-overwrite-master-with-branch/41490301
 
 
