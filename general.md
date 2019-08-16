@@ -1,3 +1,23 @@
+### Run code inside the docker for local development (un-dockerize )
+
+Run docker in a interactive mode and map ports 
+
+```
+docker images 
+
+docker run -it -p 8080:3000 82dc2c654910
+
+sudo su -
+
+git clone https://github.com/sushilshinde/react-docker.git
+
+cd react-docker/
+
+npm i
+
+npm start
+
+```
 
 ### youtube-dl with numbering files
 youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" <playlist_link>
