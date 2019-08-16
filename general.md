@@ -9,7 +9,9 @@ docker run -it -p 8080:3000 82dc2c654910
 
 sudo su -
 
-git clone https://github.com/sushilshinde/react-docker.git
+any app can be downloaded
+
+git clone https://github.com/sushilshinde/react-docker.git 
 
 cd react-docker/
 
