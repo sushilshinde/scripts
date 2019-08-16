@@ -11,7 +11,7 @@ sudo su -
 
 any app can be downloaded
 
-git clone https://github.com/sushilshinde/react-docker.git 
+git clone https://github.com/topcoder-platform/community-app.git 
 
 cd react-docker/
 
