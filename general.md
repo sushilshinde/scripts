@@ -1,3 +1,8 @@
+### CREATING A NODEJS COMMAND-LINE
+
+https://x-team.com/blog/a-guide-to-creating-a-nodejs-command/
+
+
 ### Run code inside the docker for local development (un-dockerize )
 
 Run docker in a interactive mode and map ports 
