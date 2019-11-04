@@ -58,4 +58,12 @@ Github kungfu
 
 https://stackoverflow.com/questions/30105210/git-overwrite-master-with-branch/41490301
 
+### Example - replace develop with master 
+```
+git checkout master
+git merge -s ours --no-commit develop
+git commit -m "Sync with master"     # Add a message regarding the replacement that you just did
+git checkout develop
+git merge master
+```
 
