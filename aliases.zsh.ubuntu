@@ -1,0 +1,86 @@
+alias ed="nano"
+alias lsa='ls -lah'
+alias l='ls -lah'
+alias ll='ls -lh'
+alias la='ls -lAh'
+alias dir='ls'
+alias opn="open ."
+alias D="cd ~/Downloads"
+alias d="cd ~/Desktop"
+alias sshe="sudo micro /etc/ssh/ssh_config"
+
+alias tc="~/projects/tc"
+alias pp="~/projects/practice"
+alias vids="~/Movies/Vids"
+alias movies="~/Movies"
+alias desktop="~/Desktop"
+alias c="clear"
+alias cls="clear"
+alias clr="clear"
+
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+#--------- GIT ------------
+alias g="git"
+alias gs="git status"
+alias gl="git log --stat"
+alias gi='git init'
+alias gp='git push'
+alias gpl='git pull'
+alias ga='git add .'
+alias gc='git commit -m'
+alias grv="git remote -v"
+alias ooanward='git commit -am'
+alias ge='git checkout .'
+alias gac='git add . && git commit -m '
+alias gstaged="git diff @ @{upstream}"
+alias gclear="git checkout ."
+alias gch="git checkout"
+
+# Undo a `git push`
+alias undopush="git push -f origin HEAD^:master"
+alias undocommit="git rebase -i HEAD~1"
+
+
+alias v="vim"
+alias a="atom ."
+alias reload="source ~/.zshrc"
+alias ze="ed ~/.zshrc"
+alias al="cat $ZSH/custom/aliases.zsh"
+alias ae="ed $ZSH/custom/aliases.zsh"
+alias si="brew install"
+alias updateupgrade="sudo apt update && sudo apt upgrade sudo apt dist-upgrade"
+
+alias e="exit"
+alias dl="aria2c"
+alias yd="youtube-dl -cit"
+alias live="live-server ."
+
+#--------- Utility ------------
+alias cf="cp -R"
+alias rf="rm -rf"
+alias slp="pmset sleepnow"
+
+#--------- NPM ------------
+alias npmi="npm i "
+alias testupdate="npm run jest -- -u"
+alias npmb="npm run build"
+alias npms="npm start"
+alias npmr="npm run"
+alias npmd="npm run dev"
+alias npmrd="npm run dev"
+alias npmcp="rf node_modules package-lock.json && npmi && testupdate && test && npmb && npms"
+alias npmcd="rf node_modules package-lock.json && npmi && testupdate && test && npm run build:dev && npm run dev"
+alias test="npm run test"
+
+
+#-------- APP ---------
+alias get-community-app="tc && rf community-app && git clone git@github.com:topcoder-platform/community-app.git && cd community-app"
+alias get-topcoder-react-lib="tc && rf topcoder-react-app && git clone git@github.com:topcoder-platform/topcoder-react-lib.git"
+
+
+alias se="source ~/Extra/env-var.sh"
