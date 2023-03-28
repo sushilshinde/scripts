@@ -1,0 +1,5 @@
+## COPY from remote:local
+scp -rp -i ./some_key.pem azureuser@4.240.84.13:/home/hostuser/test test-cp
+
+COPY from local:remote 
+scp -rp -i ./some_key.pem test-cp azureuser@4.240.84.13:/home/hostuser/test
