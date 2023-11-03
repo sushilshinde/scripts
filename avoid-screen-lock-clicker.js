@@ -3,6 +3,7 @@
  	1. Open browser tab
   	2. Open browser javascript console
    	3. Paste above code
+    	4. Enter return
 */
 
 const body = document.querySelector("body");
