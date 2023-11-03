@@ -1,6 +1,14 @@
-var body = document.querySelector("body");
+/*
+	Steps to run
+ 	1. Open browser tab
+  	2. Open browser javascript console
+   	3. Paste above code
+*/
+
+const body = document.querySelector("body");
+const sec = 5;
 
 setInterval(function () {
 	body.click()
-	console.log("clicked")
-},5000);
+	console.log("Clicked")
+},sec * 1000);
