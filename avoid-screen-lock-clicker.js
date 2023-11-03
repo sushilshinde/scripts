@@ -7,9 +7,9 @@
 */
 
 const body = document.querySelector("body");
-const sec = 5;
+const clickFrequencyInSeconds = 5;
 
 setInterval(function () {
 	body.click()
 	console.log("Clicked")
-},sec * 1000);
+},clickFrequencyInSeconds * 1000);
